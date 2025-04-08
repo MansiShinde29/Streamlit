@@ -6,8 +6,8 @@ import seaborn as sns
 st.set_page_config(layout="wide", page_title="Employment Dataset Cleaning 💅")
 
 # Load datasets
-raw_df = pd.read_csv("https://raw.githubusercontent.com/MansiShinde29/Streamlit/main/Stremlit/Messy_Employment_India_Dataset.csv")
-cleaned_df = pd.read_csv("https://raw.githubusercontent.com/MansiShinde29/Streamlit/main/Stremlit/Cleaned_Employment_India_Dataset.csv")
+raw_df = pd.read_csv("https://raw.githubusercontent.com/MansiShinde29/Streamlit/refs/heads/main/Stremlit/Messy_Employment_India_Dataset.csv")
+cleaned_df = pd.read_csv("https://raw.githubusercontent.com/MansiShinde29/Streamlit/refs/heads/main/Stremlit/cleaned_Dataset.csv")
 
 # Sidebar
 st.sidebar.title("🧽 Data Views")
